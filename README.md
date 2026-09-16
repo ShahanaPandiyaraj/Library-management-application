@@ -131,14 +131,4 @@ librarysystem/
 - Email/SMS notifications before due dates.
 - Barcode/QR scanning for faster issue-return at the counter.
 
-## 9. Git Workflow (for submission)
 
-```bash
-git init
-git add .
-git commit -m "Initial commit: Library Management System CRUD app"
-git remote add origin <your-repo-url>
-git push -u origin main
-```
-
-`.gitignore` already excludes `db.sqlite3`, `__pycache__`, and virtual environments.
